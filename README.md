@@ -73,7 +73,7 @@ https://github.com/IE-PY-2026-1/ie-py-homework-rlawodus441131-cell/blob/main/%ED
     * **해결:** 등급 판정(if) 내부에 and 연산자를 포함한 중첩 조건을 구성하여, '등급이 S등급이면서 동시에 특정 투자 금액 이상인 경우'로 조건을 좁혀 논리적 정확도를 높임.
      
 ### **📁 증빙 자료:**
-  * [2차_AI협업캡처.pdf 첨부 완료] (첨부 후 링크)https://github.com/IE-PY-2026-1/ie-py-homework-rlawodus441131-cell/blob/main/%EC%B2%AB%EB%B2%88%EC%A7%B8%20%EC%A7%88%EB%AC%B8(%EB%A1%9C%EC%A7%81%20%EA%B5%AC%EC%A1%B0%20%EC%A0%90%EA%B2%80).pnghttps://github.com/IE-PY-2026-1/ie-py-homework-rlawodus441131-cell/blob/main/%EB%91%90%20%EB%B2%88%EC%A7%B8%20%EC%A7%88%EB%AC%B8(%EB%A1%9C%EC%A7%81%20%EB%8F%84%EC%B6%9C).png
+  * [2차_AI협업캡처.pdf 첨부 완료] (첨부 후 링크)2차 
   * [2차과제_실행결과.jpg]
 <br>
 
