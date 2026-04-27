@@ -32,13 +32,28 @@ analysis_list = trade_log[:]
 for trade in analysis_list:
     name, buy, sell, amt = trade # 언패킹
     profit_rate = ((sell - buy) / buy) * 100
-    
+    invest_amount = buy * amt # 투자 금액 계산 (복합 조건용)
+
     # 4. 조건문 (if-elif-else) - 등급 판정
-    if profit_rate >= 10:
+    if profit_rate >= 20 and invest_amount >= 100000:
         grade = "S"
-    elif profit_rate >= 0:
+        title = "시장의 지배자 (고액 거물)"
+    elif profit_rate >= 20:
+        grade = "S"
+        title = "전설의 트레이더"
+    elif profit_rate >= 10:
         grade = "A"
+        title = "전문 트레이더"
+    elif profit_rate >= 0:
+        grade = "B"
+        title = "안정적 트레이더"
     else:
-        grade = "F"
+        # 손실이 크면서(10% 이상 손실) 투자금도 클 때
+        if profit_rate <= -10 and invest_amount >= 100000:
+            grade = "F"
+            title = "위험한 투자자 (주의 필요)"
+        else:
+            grade = "F"
+            title = "견습 트레이더"
         
-    print(f"종목: {name:10} | 수익률: {profit_rate:6.2f}% | 등급: [{grade}]")
+    print(f"종목: {name:10} | 수익률: {profit_rate:6.2f}% | 등급: [{grade}] | 칭호: {title}")
