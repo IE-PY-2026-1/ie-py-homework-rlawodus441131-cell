@@ -76,7 +76,7 @@ https://github.com/IE-PY-2026-1/ie-py-homework-rlawodus441131-cell/blob/main/%ED
     * **해결:** 반복문 내에 if buy == 0: continue라는 '방어적 프로그래밍' 로직을 추가하여, 잘못된 데이터 입력 시 해당 항목을 계산에서 제외하고 다음 루프로 넘어가도록 설계함.
      
 ### **📁 증빙 자료:**
-  * [2차_AI협업캡처.pdf 첨부 완료] (첨부 후 링크)
+  * [2차_AI협업캡처.pdf 첨부 완료] (첨부 후 링크)https://github.com/IE-PY-2026-1/ie-py-homework-rlawodus441131-cell/blob/main/%ED%8C%8C%EC%9D%B4%EC%8D%AC%202%EC%B0%A8%EA%B3%BC%EC%A0%9C%20ai%20%ED%98%91%EC%97%85%20%EC%A6%9D%EB%B9%99%20%EC%9E%90%EB%A3%8C.pdf
   * [2차과제_실행결과.jpg]
 
 ## 🟨 [3차 과제: V3.0] 무한 루프와 메뉴 시스템 (반복문) - 향후 작성 예정
