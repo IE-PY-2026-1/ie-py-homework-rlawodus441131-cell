@@ -77,7 +77,7 @@ https://github.com/IE-PY-2026-1/ie-py-homework-rlawodus441131-cell/blob/main/%ED
      
 ### **📁 증빙 자료:**
   * [2차_AI협업캡처.pdf 첨부 완료] (첨부 후 링크)https://github.com/IE-PY-2026-1/ie-py-homework-rlawodus441131-cell/blob/main/%ED%8C%8C%EC%9D%B4%EC%8D%AC%202%EC%B0%A8%EA%B3%BC%EC%A0%9C%20ai%20%ED%98%91%EC%97%85%20%EC%A6%9D%EB%B9%99%20%EC%9E%90%EB%A3%8C.pdf
-  * [2차과제_실행결과.jpg]
+  * [2차과제_실행결과.jpg]https://github.com/IE-PY-2026-1/ie-py-homework-rlawodus441131-cell/blob/main/%ED%8C%8C%EC%9D%B4%EC%8D%AC%202%EC%B0%A8%20%EC%BD%94%EB%93%9C%20%EC%9E%91%EC%84%B1%20%EB%B0%8F%20%EA%B2%B0%EA%B3%BC.pdf
 
 ## 🟨 [3차 과제: V3.0] 무한 루프와 메뉴 시스템 (반복문) - 향후 작성 예정
 ### **✨3차 과제 업데이트 내용:**
