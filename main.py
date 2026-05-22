@@ -25,7 +25,7 @@ def input_trade():
     print('✅ 입력이 완료되었습니다!')
 # 매매 기록 조회
 def show_traders():
-    print('/n---📋 전체 매매 기록 조회 ---')
+    print('\n---📋 전체 매매 기록 조회 ---')
     if len(trade_history) == 0:
         print('기록이 없습니다.')
         return
@@ -92,7 +92,7 @@ while True:
     if choice == '1':
         input_trade()       # 함수 호출
     elif choice == '2':
-        show_trades()       # 함수 호출
+        show_traders()       # 함수 호출
     elif choice == '3':
         show_analysis()     # 함수 호출
     elif choice == '4':
