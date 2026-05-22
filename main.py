@@ -15,11 +15,8 @@ def input_trade():
     trade_history.append([ticker, buy, sell, amount])
     total_sum += buy * amount  # 복합 대입 연산자
  
-    # 최근 이슈 종목을 리스트 맨 앞에 삽입
-    trade_history.insert(0, ['최근 이슈 종목', 1000, 1500, 10])
- 
-    # 리스트가 5개 초과하면 가장 오래된 항목 제거
-    if len(trade_history) > 5:
+    trade_history.insert(0, ['최근 이슈 종목', 1000, 1500, 10])   # 최근 이슈 종목을 리스트 맨 앞에 삽입
+    if len(trade_history) > 5:    # 리스트가 5개 초과하면 가장 오래된 항목 제거
         trade_history.pop()
  
     print('✅ 입력이 완료되었습니다!')
@@ -86,9 +83,7 @@ while True:
     print('3. 수익률 분석')
     print('4. 종료')
     print('============================')
- 
     choice = input('메뉴를 선택하세요 (1~4): ')
- 
     if choice == '1':
         input_trade()       # 함수 호출
     elif choice == '2':
