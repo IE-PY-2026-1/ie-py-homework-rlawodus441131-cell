@@ -101,9 +101,9 @@ https://github.com/IE-PY-2026-1/ie-py-homework-rlawodus441131-cell/blob/main/%ED
   1. **문제 1:** 매수가가 0일 때 ZeroDivisionError 발생
      * **원인:** calc_profit_rate() 함수에서 profit_rate = ((sell - buy) / buy) * 100 계산 시, buy 값에 0이 입력되면 파이썬이 0으로 나누기를 시도하여 프로그램이 강제 종료됨.
      * **해결:** 함수 첫 줄에 if buy == 0: return 0.0 조건을 추가하여, 매수가가 0인 경우 계산을 건너뛰고 0을 반환하도록 예외 처리함.
-  2. **문제 2:**함수 밖에서 선언한 리스트가 함수 안에서 수정되지 않음
-     * **원인:**파이썬 함수는 기본적으로 전역변수를 읽을 수는 있지만, 재할당(수정)하려면 global 선언이 필요함. 선언 없이 수정하려다 UnboundLocalError 발생.
-     * **해결:**input_trade() 함수 상단에 global trade_history, total_sum을 선언하여 전역변수임을 명시하고 정상적으로 데이터가 누적되도록 수정함.
+  1. **문제 2:** 함수 밖에서 선언한 리스트가 함수 안에서 수정되지 않음
+     * **원인:** 파이썬 함수는 기본적으로 전역변수를 읽을 수는 있지만, 재할당(수정)하려면 global 선언이 필요함. 선언 없이 수정하려다 UnboundLocalError 발생.
+     * **해결:** input_trade() 함수 상단에 global trade_history, total_sum을 선언하여 전역변수임을 명시하고 정상적으로 데이터가 누적되도록 수정함.
 
 ### **📁 증빙 자료:**
   * [3차_AI협업캡처.pdf 첨부 완료] (첨부 후 링크)
