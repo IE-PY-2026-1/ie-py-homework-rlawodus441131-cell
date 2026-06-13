@@ -136,5 +136,5 @@ https://github.com/IE-PY-2026-1/ie-py-homework-rlawodus441131-cell/blob/main/%ED
      
 ### **📁 증빙 자료:**
   * [4차_AI협업캡처.pdf 첨부 완료]https://github.com/IE-PY-2026-1/ie-py-homework-rlawodus441131-cell/blob/main/%ED%8C%8C%EC%9D%B4%EC%8D%AC%204%EC%B0%A8%20ai%201.png
-  * [4차과제_실행결과.jpg]
+  * [4차과제_실행결과.jpg]https://github.com/IE-PY-2026-1/ie-py-homework-rlawodus441131-cell/blob/main/%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EA%B3%BC%EC%A0%9C4%20%EC%BD%94%EB%93%9C%20%EA%B2%B0%EA%B3%BC.png
 <br>
