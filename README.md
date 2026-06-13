@@ -135,6 +135,6 @@ https://github.com/IE-PY-2026-1/ie-py-homework-rlawodus441131-cell/blob/main/%ED
      * **해결:** load_from_file() 함수에서 parts[2], parts[3], parts[4]를 각각 float()으로 변환한 뒤 이중 리스트에 append하여 정상적으로 연산이 가능하도록 수정함.
      
 ### **📁 증빙 자료:**
-  * [4차_AI협업캡처.pdf 첨부 완료] (첨부 후 링크)
+  * [4차_AI협업캡처.pdf 첨부 완료]https://github.com/IE-PY-2026-1/ie-py-homework-rlawodus441131-cell/blob/main/%ED%8C%8C%EC%9D%B4%EC%8D%AC%204%EC%B0%A8%20ai%201.png
   * [4차과제_실행결과.jpg]
 <br>
